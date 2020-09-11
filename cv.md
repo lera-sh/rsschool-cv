@@ -4,5 +4,5 @@
 4. PL: JS, VSC: git
 5. Lambda restaurant: https://github.com/lera-sh/lambda-restaurant blow: https://github.com/lera-sh/blow
 6. htmlacademy, codecademy, codewars.
-7. htmlacademy, codecademy, lessonsd with mentor
+7. htmlacademy, codecademy, lessons with mentor
 8. B1, profile language in school and university
