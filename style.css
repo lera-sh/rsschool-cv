@@ -129,3 +129,38 @@ body {
 .code {
   font-size: 15px;
 }
+
+.footer-section {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.footer-columns {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-col {
+  margin: 10px 120px;
+}
+
+.footer-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  width: 130px;
+}
+
+.footer-icon {
+  width: 110px;
+}
+
+.rs-logo {
+  width: 80px;
+}
+
+.url-col:hover {
+  cursor: pointer;
+}
