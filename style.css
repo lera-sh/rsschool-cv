@@ -164,3 +164,239 @@ body {
 .url-col:hover {
   cursor: pointer;
 }
+
+@media (max-width:1280px) {
+
+  .wrapper {
+    max-width: 896px;
+    padding: 45px;
+  }
+  
+}
+
+@media (max-width:1120px) {
+
+  .wrapper {
+    max-width: 800px;
+    padding: 45px 55px;
+  }
+
+  .description, .section-name {
+    font-size: 24px;
+  }
+
+  .link, .item-text, .section-text {
+    font-size: 18px;
+  }
+
+  .footer-col {
+    margin: 10px 115px;
+  }
+  
+}
+
+@media (max-width:1024px) {
+
+  .wrapper {
+    max-width: 688px;
+    padding: 45px 60px;
+  }
+
+  .description-text {
+    width: 600px;
+  }
+
+  .intro-section {
+    margin-bottom: 25px;
+  }
+
+  .section-name {
+    margin-bottom: 3px;
+  }
+
+  .footer-section {
+    margin-top: 30px;
+  }
+
+  .footer-col {
+    margin: 10px 105px;
+  }
+  
+}
+
+@media (max-width:928px) {
+
+  .wrapper {
+    max-width: 575px;
+    padding: 45px 35px;
+  }
+
+  .intro-section {
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+  }
+
+  .photo {
+    margin-top: 15px;
+    width: 180px;
+  }
+  
+  .description-text {
+    font-size: 18px;
+    margin-top: 5px;
+    width: 470px;
+  }
+
+  .description, .section-name {
+    font-size: 24px;
+  }
+  
+  .link, .item-text, .section-text {
+    font-size: 17px;
+  }
+
+  .primary-column {
+    margin-right: 10px;
+    width: 400px;
+  }
+  
+  .code {
+    font-size: 14px;
+  }
+
+  .footer-col {
+    margin: 10px 70px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .wrapper {
+    box-shadow: none;
+    margin: 15px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+
+  .intro-section {
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-size: 48px;
+    letter-spacing: 4.5px;
+    margin-bottom: 0;
+  }
+
+  .photo {
+    width: 170px;
+  }
+
+  .description, .section-name {
+    font-size: 22px;
+  }
+  
+  .description-text {
+    font-size: 18px;
+    width: 450px;
+  }
+
+  .description, .section-name {
+    font-size: 24px;
+  }
+
+  .icon {
+    padding-right: 2px;
+    padding-top: 7px;
+    width: 15px;
+  }
+
+  .primary-column {
+    margin-right: 10px;
+    width: 380px;
+  }
+
+  .secondary-column {
+    margin-left: 10px;
+  }
+
+  .items-section {
+    margin-bottom: 0;
+  }
+
+  .item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .footer-col {
+    margin: 10px 40px;
+  }
+  
+}
+
+@media (max-width:560px) {
+
+  .wrapper {
+    max-width: 300px;
+  }
+
+  .name {
+    font-size: 37px;
+    letter-spacing: 1.5px;
+    margin: 20px 5px 0 5px;
+  }
+
+  .photo {
+    width: 150px;
+  }
+
+  .description, .section-name {
+    font-size: 22px;
+  }
+
+  .description-text {
+    font-size: 18px;
+    width: 290px;
+  }
+
+  .columns {
+    flex-direction: column;
+  }
+
+  .primary-column {
+    width: 280px;
+  }
+
+  .code {
+    font-size: 12px;
+  }
+
+  .footer-section {
+    margin-right: 7px;
+  }
+
+  .footer-col {
+    margin: 10px 15px;
+  }
+
+  .footer-icon {
+    width: 90px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    margin-right: 5px;
+  }   
+
+  .rs-logo {
+    width: 60px;
+  }
+
+}
