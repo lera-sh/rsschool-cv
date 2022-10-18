@@ -1,0 +1,402 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  box-shadow: 13px 14px 78px 3px rgba(133, 124, 133, .5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 70px auto;
+  max-width: 1024px;
+  padding: 50px;
+}
+
+.intro-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  margin: 20px;
+}
+
+.photo {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.icon {
+  padding-right: 4px;
+  padding-top: 7px;
+  width: 18px;
+}
+
+.link, .item-text, .description-text, .section-text {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+.description, .section-name {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.description, .description-text {
+  font-style: italic;
+}
+
+.description {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.description-text {
+  margin-top: 10px;
+  text-align: center;
+  width: 800px;
+}
+
+.primary-column {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.secondary-section {
+  width: 500px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.section-name {
+  margin-bottom: 5px;
+}
+
+.items-selector {
+  margin: 0;
+}
+
+.item-text {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.link {
+  color: #000;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+.item {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.section-text {
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.number {
+  align-items: center;
+  display: flex;
+}
+
+.code-example {
+  background-color: #e8e8e8;
+}
+
+.code {
+  font-size: 15px;
+}
+
+.footer-section {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.footer-columns {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-col {
+  margin: 10px 120px;
+}
+
+.footer-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  width: 130px;
+}
+
+.footer-icon {
+  width: 110px;
+}
+
+.rs-logo {
+  width: 80px;
+}
+
+.url-col:hover {
+  cursor: pointer;
+}
+
+@media (max-width:1280px) {
+
+  .wrapper {
+    max-width: 896px;
+    padding: 45px;
+  }
+  
+}
+
+@media (max-width:1120px) {
+
+  .wrapper {
+    max-width: 800px;
+    padding: 45px 55px;
+  }
+
+  .description, .section-name {
+    font-size: 24px;
+  }
+
+  .link, .item-text, .section-text {
+    font-size: 18px;
+  }
+
+  .footer-col {
+    margin: 10px 115px;
+  }
+  
+}
+
+@media (max-width:1024px) {
+
+  .wrapper {
+    max-width: 688px;
+    padding: 45px 60px;
+  }
+
+  .description-text {
+    width: 600px;
+  }
+
+  .intro-section {
+    margin-bottom: 25px;
+  }
+
+  .section-name {
+    margin-bottom: 3px;
+  }
+
+  .footer-section {
+    margin-top: 30px;
+  }
+
+  .footer-col {
+    margin: 10px 105px;
+  }
+  
+}
+
+@media (max-width:928px) {
+
+  .wrapper {
+    max-width: 575px;
+    padding: 45px 35px;
+  }
+
+  .intro-section {
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+  }
+
+  .photo {
+    margin-top: 15px;
+    width: 180px;
+  }
+  
+  .description-text {
+    font-size: 18px;
+    margin-top: 5px;
+    width: 470px;
+  }
+
+  .description, .section-name {
+    font-size: 24px;
+  }
+  
+  .link, .item-text, .section-text {
+    font-size: 17px;
+  }
+
+  .primary-column {
+    margin-right: 10px;
+    width: 400px;
+  }
+  
+  .code {
+    font-size: 14px;
+  }
+
+  .footer-col {
+    margin: 10px 70px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .wrapper {
+    box-shadow: none;
+    margin: 15px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+
+  .intro-section {
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-size: 48px;
+    letter-spacing: 4.5px;
+    margin-bottom: 0;
+  }
+
+  .photo {
+    width: 170px;
+  }
+
+  .description, .section-name {
+    font-size: 22px;
+  }
+  
+  .description-text {
+    font-size: 18px;
+    width: 450px;
+  }
+
+  .description, .section-name {
+    font-size: 24px;
+  }
+
+  .icon {
+    padding-right: 2px;
+    padding-top: 7px;
+    width: 15px;
+  }
+
+  .primary-column {
+    margin-right: 10px;
+    width: 380px;
+  }
+
+  .secondary-column {
+    margin-left: 10px;
+  }
+
+  .items-section {
+    margin-bottom: 0;
+  }
+
+  .item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .footer-col {
+    margin: 10px 40px;
+  }
+  
+}
+
+@media (max-width:560px) {
+
+  .wrapper {
+    max-width: 300px;
+  }
+
+  .name {
+    font-size: 37px;
+    letter-spacing: 1.5px;
+    margin: 20px 5px 0 5px;
+  }
+
+  .photo {
+    width: 150px;
+  }
+
+  .description, .section-name {
+    font-size: 22px;
+  }
+
+  .description-text {
+    font-size: 18px;
+    width: 290px;
+  }
+
+  .columns {
+    flex-direction: column;
+  }
+
+  .primary-column {
+    width: 280px;
+  }
+
+  .code {
+    font-size: 12px;
+  }
+
+  .footer-section {
+    margin-right: 7px;
+  }
+
+  .footer-col {
+    margin: 10px 15px;
+  }
+
+  .footer-icon {
+    width: 90px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    margin-right: 5px;
+  }   
+
+  .rs-logo {
+    width: 60px;
+  }
+
+}
